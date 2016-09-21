@@ -1,4 +1,4 @@
-# ofxPortSF
+﻿# ofxPortSF
 ofxPortSF is an addon to aid in loading, recording, and saving sound
 files for projects that implement an audio stream explicitly. It 
 uses Richard Dobson's portsf C library, written for use with "The 
@@ -20,7 +20,7 @@ Tested on Windows, should work with MacOS and Linux.
 
 Note: the library does not support compressed audio formats (most notably the .mp3).
 
-<h2>Notes from the original author</h2>
+<h2>Notes from the original author:</h2>
 
 portsf from the audio programming book
 
