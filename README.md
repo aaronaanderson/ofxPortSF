@@ -8,6 +8,8 @@ programmers with little background in C. The three example projects
 should be enough to copy-paste into your own projects with very few
 changes. 
 
+Tested on Windows, should work with MacOS and Linux.
+
 <h2>Install:</h2>
 
 
