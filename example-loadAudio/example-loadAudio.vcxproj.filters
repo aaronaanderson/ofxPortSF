@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxPortSF\libs\ofxPortSF.cpp">
+			<Filter>addons\ofxPortSF\libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPortSF">
+			<UniqueIdentifier>{CC03C371-36E7-7389-EED5-D661}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPortSF\src">
+			<UniqueIdentifier>{7D622284-4135-4F9D-7853-F7AF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPortSF\libs">
+			<UniqueIdentifier>{9614AFFB-31E7-AB2F-CED2-FD9F}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxPortSF\src\ofxPortSF.h">
+			<Filter>addons\ofxPortSF\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
